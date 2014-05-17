@@ -1,6 +1,6 @@
 {
   "name": "koa-render-locals",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add compatibility report koa-render and koa-locals",
   "keywords": [
     "template",

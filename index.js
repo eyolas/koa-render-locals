@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-var debug = require('debug')('koa-render');
+var debug = require('debug')('koa-render-locals');
 var view = require('co-views');
 var merge = require('merge');
 
@@ -66,8 +66,6 @@ function render (path, opts) {
         // merge middlewareLocals with local locals.
         locals = merge(middlewareLocals, locals);
       }
-
-      console.log(locals);
 
       debug('render %s with locals %j and options %j', file, locals, opts);
       return view(path, opts)(file, locals);
