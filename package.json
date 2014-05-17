@@ -1,0 +1,29 @@
+{
+  "name": "koa-render-locals",
+  "version": "0.0.1",
+  "description": "Add compatibility report koa-render and koa-locals",
+  "keywords": [
+    "template",
+    "render",
+    "consolidate",
+    "engine",
+    "koa"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eyolas/koa-render-locals.git"
+  },
+  "author": "Touzet David <dtouzet@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eyolas/koa-render-locals/issues"
+  },
+  "homepage": "https://github.com/eyolas/koa-render-locals",
+  "dependencies": {
+    "co-views": "^0.2.0",
+    "debug": "^0.8.1",
+    "merge": "^1.1.3"
+  },
+  "devDependencies": {}
+}
